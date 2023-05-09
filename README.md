@@ -26,3 +26,11 @@
 # Random forest
 # Python
 | 00 | [RF](https://github.com/Khanh-BangPham/A-star-algorithm-for-8-puzzle-problem) |
+
+<details>
+<summary>Description</summary>
+
+Tìm hiểu thuật toán random forests, lấy ví dụ minh họa các bước của thuật toán. Viết chương trình dự đoán hủy phòng sử dụng thuật toán nêu trên.
+Dữ liệu chi tiết: https://www.kaggle.com/datasets/ahsan81/hotel-reservations-classification-dataset 
+</details>
+<details>
