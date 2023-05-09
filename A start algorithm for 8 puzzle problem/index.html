@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>8 Puzzle Problem</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+  <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+  <py-env>
+    - paths:
+        - /main.py
+  </py-env>
+</head>
+
+<body>
+  <section class="app">
+    <div class="header">
+      <div class="title">
+        <input type="file" id="file">
+      </div>
+      <div class="description">
+        <p>Current: </p>
+        <div class="chessboard" id="current">
+          <div class="row --0">
+            <div class="chessbox --0"></div>
+            <div class="chessbox --1"></div>
+            <div class="chessbox --2"></div>
+          </div>
+          <div class="row --1">
+            <div class="chessbox --0"></div>
+            <div class="chessbox --1"></div>
+            <div class="chessbox --2"></div>
+          </div>
+          <div class="row --2">
+            <div class="chessbox --0"></div>
+            <div class="chessbox --1"></div>
+            <div class="chessbox --2"></div>
+          </div>
+        </div>
+        <p>Start: </p>
+        <div class="chessboard" id="start">
+          <div class="row --0">
+            <div class="chessbox --0"></div>
+            <div class="chessbox --1"></div>
+            <div class="chessbox --2"></div>
+          </div>
+          <div class="row --1">
+            <div class="chessbox --0"></div>
+            <div class="chessbox --1"></div>
+            <div class="chessbox --2"></div>
+          </div>
+          <div class="row --2">
+            <div class="chessbox --0"></div>
+            <div class="chessbox --1"></div>
+            <div class="chessbox --2"></div>
+          </div>
+        </div>
+        <p>Goal: </p>
+        <div class="chessboard" id="goal">
+          <div class="row --0">
+            <div class="chessbox --0"></div>
+            <div class="chessbox --1"></div>
+            <div class="chessbox --2"></div>
+          </div>
+          <div class="row --1">
+            <div class="chessbox --0"></div>
+            <div class="chessbox --1"></div>
+            <div class="chessbox --2"></div>
+          </div>
+          <div class="row --2">
+            <div class="chessbox --0"></div>
+            <div class="chessbox --1"></div>
+            <div class="chessbox --2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div action="" class="container-fluid">
+        <div id="content">
+        </div>
+        <div class="btnGroup">
+          <button type="submit" id="buttonPrev">PREV</button>
+          <button type="submit" id="buttonNext">NEXT</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <py-script>
+    from main import *
+  </py-script>
+</body>
+
+</html>
